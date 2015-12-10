@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+  <link href="main.css" rel="styleshet"/>
+</head>
+
+<body>
+  <div class="outer">
+    <div class="inner">
+  <ul>
+    <li><a href="file:///Users/henrystodder/Desktop?HS_about.html">Home</a></li>
+    <li><a href="file:///Users/henrystodder/Desktop/HS_about.html">About Henry</a></li>
+    <li><a href="file:///Users/henrystodder/Desktop/HS_student_profile.html">Student Profile</a></li>
+  <ul>
+  <ul>
+    <li><a href="www.facebook.com">Facebook</a></li>
+    <li><a href="www.instagram.com">Instagram</a></li>
+    <li><a href="www.twitter.com">Twitter</a></li>
+    <li><a href="www.linkedin.com">LinkedIn</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="boundry">
+  <div class="inner">
+  <h1>Henry Stodder is chill.com</h1>
+  <p><em>You know its true because you're reading it on the internet!</em></p>
+  <p>Do your part and donate so that he can continue being so dope</p>
+</div>
+</div>
+
+<div class="ring">
+<div>
+  <p>
+    <img src="https://media3.giphy.com/media/eBXnKCB7ZjXiw/200_s.gif"/>
+  </p>
+</div>
+</div>
+
+<div class="role-model">
+  <div class="inner"
+  <h3>Henry can help you too!</h3>
+  <p>As a role model in the community, Henry has become a well respected figure</p>
+    <a href="#">Learn more</a>
+</div>
+</div>
+
+
+
+<!--CSS elements-->
+  <style>
+  .boundry {
+    background-image:url(http://cdn.funcheap.com/wp-content/uploads/2011/01/sunset.jpg);
+    height:900px;
+    width:1500px;
+  }
+.boundry h1 {
+  padding-top:40px;
+  padding-left:20px;
+  font-family:Baoli SC;
+}
+.boundry p {
+  padding-left:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family:times;
+
+}
+.outer a {
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:sans-serif;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:black;
+}
+.outer a:hover {
+  color:#ff9a00;
+}
+.outer li {
+  display:inline;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+  </style>
+  <script>
+    confirm("You must be over the age of 18 to enter this site")
+    var age = prompt("What is your age?");
+    if (age < 18)
+    {
+      console.log("Please enjoy Henry's Website");
+    }
+    else {
+      console.log(Maybe next year bud)
+    }
+  </script>
+
+</body>
